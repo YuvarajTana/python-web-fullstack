@@ -20,7 +20,7 @@
   - What we can build with python
   - Installion, setup 
 
-  ** Fundamentals  **
+  **Fundamentals**
     - Variables and Data Types  
     - Working with strings and numbers 
     - Getting input from users 
