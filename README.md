@@ -21,10 +21,16 @@
   - Installion, setup 
 
   **Fundamentals**
+  
     - Variables and Data Types  
     - Working with strings and numbers 
     - Getting input from users 
+    
   **Conditional statements**
+  
+  
   **Iteratives**
+  
+  
   
 
