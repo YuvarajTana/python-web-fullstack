@@ -1,4 +1,4 @@
-# Fullstack web developer(Python, Django, JavaScript, React and MySql)
+# Fullstack web development(Python, Django, JavaScript, React and MySql)
 
 
 ## What is fullstack, possible combinations and discussions around it
@@ -26,7 +26,16 @@
   - Installion, setup 
 
   **Fundamentals**
+  
     - Variables and Data Types  
     - Working with strings and numbers 
     - Getting input from users 
+    
+  **Conditional statements**
+  
+  
+  **Iteratives**
+  
+  
+  
 
