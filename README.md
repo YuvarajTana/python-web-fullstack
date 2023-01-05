@@ -2,14 +2,19 @@
 
 
 ## What is fullstack, possible combinations and discussions around it
-  UI                       server                    Data Source 
+  
+### UI                       
+  1. Mobile/Web APP               
 
-  Mobile/Web APP          Python/Java/c#/Go/php      SQL(MySQL, Oracle, PostgresSQl)/
-                                                     No-SQL(MongoDB, casscandra) and file Storage 
 
-
-  HTML,CSS,and JavaScript 
+  2. HTML,CSS,and JavaScript 
   Andriod/ios
+
+## server                    
+  1. Python/Java/c#/Go/php 
+## Data Source 
+  1. SQL(MySQL, Oracle, PostgresSQl)/ No-SQL(MongoDB, casscandra) and file Storage 
+
 
   
 
