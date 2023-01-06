@@ -6,13 +6,14 @@
 #### UI                       
   2. (Mobile/Web APP) HTML,CSS,and JavaScript 
   Andriod/ios
-#### server                    
+
+#### Server                    
   1. Python/Java/c#/Go/php 
+
 #### Data Source 
   1. SQL(MySQL, Oracle, PostgresSQl)/ No-SQL(MongoDB, casscandra) and file Storage 
 
 
-  
 
 ## Python
   
