@@ -7,7 +7,8 @@
     The front end also refers UI Development consists of the user interface, and the back end takes care of the business logic, application workflows 
     and working with data sources.
     
-    ![FullStack](https://github.com/YuvarajTana/python-react-fullstack/blob/main/static/images/fullStack2.png, "Reference Image")
+    
+   ![FullStack](https://github.com/YuvarajTana/python-react-fullstack/blob/main/static/images/fullStack2.png, "Reference Image")
 
 
 #### UI (Client Side programming)                      
