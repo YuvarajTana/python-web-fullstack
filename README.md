@@ -9,7 +9,7 @@
 
   ### Reference as Image
   <p align="center">
-    <img src="static/images/fullStack2.png" />
+    <img src="static/images/fullStack2.png" width="600" height="600"/>
   </p>
 
 #### UI (Client Side programming)                      
