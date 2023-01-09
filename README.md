@@ -4,9 +4,10 @@
   1. Provide (a computer or other machine) with set of instructions for the automatic performance of a task.
   
 ## What is fullstack
-  ### FullStack Development
-    Full stack development refers to the end-to-end application of software development, including the front end and back end programming. 
-    The front end also refers UI Development consists of the user interface, and the back end takes care of the business logic, application workflows 
+  
+  - Full stack development refers to the end-to-end application of software development, including the front end and back end programming. 
+  
+  - The front end also refers UI Development consists of the user interface, and the back end takes care of the business logic, application workflows 
     and working with data sources.
 
   ### Reference as Image
