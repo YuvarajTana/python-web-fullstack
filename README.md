@@ -1,6 +1,8 @@
 # FullStack web development(Python, Django, JavaScript, React and MySql)
 
-
+## What is programing
+  1. Provide (a computer or other machine) with set of instructions for the automatic performance of a task.
+  
 ## What is fullstack
   ### FullStack Development
     Full stack development refers to the end-to-end application of software development, including the front end and back end programming. 
