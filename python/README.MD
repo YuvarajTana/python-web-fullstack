@@ -142,9 +142,8 @@
     1. Simple if ( if )
     
     ```Python
-
-    if(True):
-      # Thie block of code will get executed 
+      if(True):
+        # Thie block of code will get executed 
 
     ```
 
@@ -161,7 +160,9 @@
     
     3. if - elif - else 
 
+    
     ```Python
+
       # Assign grades to students based on marks
       # Grade A ==>  >= 85%
       # Grade B ==>  < 85% to >= 60
