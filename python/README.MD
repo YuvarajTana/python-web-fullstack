@@ -25,14 +25,17 @@
 
       # String with single quotes 
       '''
-      
         Sample string  with triple quutes
         Welcome to world of programming
-
       '''
 
     ```
   - Boolean type - bool 
+
+    ```Python
+      True
+      False 
+    ```
 
 
 #### Variables
