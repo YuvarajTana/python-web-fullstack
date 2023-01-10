@@ -17,13 +17,13 @@
   - String Type - str 
 
     ```Python
-      # Sample1
+      # String with single quotes 
       'Sample String'
 
-      # Sample2
+      # String with double quotes 
       "Hello"
 
-      # Sample3
+      # String with single quotes 
       '''
       
         Sample string  with triple quutes
