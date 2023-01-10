@@ -34,7 +34,7 @@
 
     ```Python
       True
-      False 
+      False
     ```
 
 
@@ -89,6 +89,7 @@
 
 
 #### Operators
+  - Operators are special symbols that perform operations on variables and values
 
   1. Logical operators
       - Logical and ( and )
@@ -117,8 +118,6 @@
       - Subtraction Assignment ( -= ) 
       - Multiplication Assignment ( *= )
 
-
-
 #### Input and Output 
 
   1. print() method
@@ -130,17 +129,80 @@
 ```
 
   2. input() method 
+  
+    ```Python
+      name = input("Please enter your name : ")
+      print("Hello "+name+" welcome to python learning")
+    ```
+
 
 #### Control Flow Statements 
-  1. Conditional Statements 
-    1. simple if ( if )
+  1. Conditional Statements - Will be used to run block of code if certain condition met
+
+    1. Simple if ( if )
+    ```Python
+
+    if(True):
+      # Thie block of code will get executed 
+
+    ```
+
     2. if-else 
-    3. nested if 
+    
+  ```Python
+    age = 20
+    if(age >= 18):
+      print("You are eligible to vote")
+    else:
+      print("You are not eligible for vote")
+
+  ```
+    
+    3. if - elif - else 
+
+    ```Python
+      # Assign grades to students based on marks
+      # Grade A ==>  >= 85%
+      # Grade B ==>  < 85% to >= 60
+      # Grade C ==>  35 to 60
+      # Grade D ==>  Failed => < 35
+      
+      totalMarks = 55
+
+      if(totalMarks >= 85):
+        print("You passed with GRADE A marks")
+      elif(totalMarks >= 60 and totalMarks < 85):
+        print("You passed with GRADE B marks")
+      elif(totalMarks >= 60 and totalMarks < 85):
+        print("You passed with GRADE C marks")
+      else:
+        print("Sorry, You are not clear the exam.")
+
+    ```
+
   2. the while statement 
+
+  
+
   3. the for statement
 
-      
+#### List
+  state_names = ['Karnataka','Maharastra', '']
 
+### Dictonaries 
+  person_details = {
+    name: "Ravi Kumar",
+    age: 25
+  }
+### functions
+  ```Python
+
+    def function_name(name):
+      print(name)
+
+
+
+  ```
 
 
 
