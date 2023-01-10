@@ -140,6 +140,7 @@
   1. Conditional Statements - Will be used to run block of code if certain condition met
 
     1. Simple if ( if )
+    
     ```Python
 
     if(True):
@@ -187,13 +188,22 @@
   3. the for statement
 
 #### List
-  state_names = ['Karnataka','Maharastra', '']
+
+  ```Python
+
+  state_names = ['Karnataka','Maharastra', 'Andhra Pradesh']
+
+  ```
 
 ### Dictonaries 
+  ```Python
+
   person_details = {
     name: "Ravi Kumar",
     age: 25
   }
+
+  ```
 ### functions
   ```Python
 
