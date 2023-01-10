@@ -46,13 +46,13 @@
 ```
 
 #### Indentifiers
-  - User defined names to represent varaible, function, module and class or any other objects
+    - User defined names to represent varaible, function, module and class or any other objects
 
-  Rules: 
-    - Should not use reserve keywords (for - Invalid)
-    - Should not start digit as indentifier nanme(  2name_tes - Invalid)
-    - Sequeance of lowercase or uppercase
-    - Mixed digits and underscore (_)
+    - Rules: 
+        - Should not use reserve keywords (for - Invalid)
+        - Should not start digit as indentifier nanme(  2name_tes - Invalid)
+        - Sequeance of lowercase or uppercase
+        - Mixed digits and underscore (_)
 
 
 #### Operators
@@ -83,14 +83,6 @@
       - Addition Assignment  ( += )
       - Subtraction Assignment ( -= ) 
       - Multiplication Assignment ( *= )
-
-
-
-  
-
-    
-
-
 
 
 
