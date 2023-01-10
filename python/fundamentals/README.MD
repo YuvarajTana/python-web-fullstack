@@ -8,12 +8,12 @@
 ## Variables
   - Reserved memory location used to store values. It can be used to access those vaules later in life of program.
 
-```Python
+  ```Python
 
-  name = "Prasad Kumar"
-  age = 20 
+    name = "Prasad Kumar"
+    age = 20 
 
-```
+  ```
 
 ## Reserve keywords
   ```Python

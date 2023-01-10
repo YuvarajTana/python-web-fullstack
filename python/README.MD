@@ -1,46 +1,49 @@
 ## Python fundamentals
-  #### Data Types
-    - Numeric types - int, float
-    - String Type - str 
-    - Boolean type - bool 
+#### Data Types
+  - Numeric types - int, float
+  - String Type - str 
+  - Boolean type - bool 
 
-  #### Variables
-    - Reserved memory location used to store values. It can be used to access those vaules later in life of program.
 
-    ```Python
+#### Variables
 
-      name = "Prasad Kumar"
-      age = 20 
+  - Reserved memory location used to store values. It can be used to access those vaules later in life of program.
 
-    ```
 
-  #### Reserve keywords
-    ```Python
+```Python
 
-    True
-    False
-    
-    and
-    or
-    not
-    
+  name = "Prasad Kumar"
+  age = 20 
 
-    if
-    elif 
-    else 
+```
 
-    for
-    continue
-    break 
+#### Reserve keywords
+```Python
 
-    def
-    pass 
+  True
+  False
+  
+  and
+  or
+  not
+  
 
-    as
-    is
-    in
+  if
+  elif 
+  else 
 
-  ```
+  for
+  continue
+  break 
+
+  def
+  pass 
+
+  as
+  is
+  in
+
+```
   #### Indentifiers
     - User defined names to represent varaible, function, module and class or any other objects
 
