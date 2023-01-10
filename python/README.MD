@@ -1,7 +1,37 @@
 ## Python fundamentals
 #### Data Types
   - Numeric types - int, float
+
+    ```Python
+
+      # int 
+        75475
+        6500
+        32
+
+      # float
+        2400.50
+        843.75
+
+    ```
   - String Type - str 
+
+    ```Python
+      # Sample1
+      'Sample String'
+
+      # Sample2
+      "Hello"
+
+      # Sample3
+      '''
+      
+        Sample string  with triple quutes
+        Welcome to world of programming
+
+      '''
+
+    ```
   - Boolean type - bool 
 
 
