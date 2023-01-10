@@ -58,9 +58,9 @@
 #### Operators
 
   1. Logical operators
-    - Logical and ( and )
-    - Logical or ( or )
-    - Logical not ( not )
+      - Logical and ( and )
+      - Logical or ( or )
+      - Logical not ( not )
 
   2. Arthmetic operators 
       - Addition ( + )
@@ -71,18 +71,18 @@
       - Exponent(Power) ( ** )
 
   3. Comparison operators
-    - Equal ( == )
-    - Not Equal ( != )
-    - Greater than ( > )
-    - Less than ( < )
-    - Greater than or Equal to ( >= )
-    - Less then or Equal to ( <= )
+      - Equal ( == )
+      - Not Equal ( != )
+      - Greater than ( > )
+      - Less than ( < )
+      - Greater than or Equal to ( >= )
+      - Less then or Equal to ( <= )
 
   4. Assignment operators 
-    - Assignment operator ( = )
-    - Addition Assignment  ( += )
-    - Subtraction Assignment ( -= ) 
-    - Multiplication Assignment ( *= )
+      - Assignment operator ( = )
+      - Addition Assignment  ( += )
+      - Subtraction Assignment ( -= ) 
+      - Multiplication Assignment ( *= )
 
 
 
