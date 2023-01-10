@@ -43,7 +43,7 @@
 
   ```
 ## Indentifiers
-  - user defined names to represent varaible, function, module and class or any other objects
+  - User defined names to represent varaible, function, module and class or any other objects
 
     Rules: 
       - Should not use reserve keywords (for - Invalid)
