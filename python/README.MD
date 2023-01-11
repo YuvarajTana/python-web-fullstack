@@ -129,7 +129,7 @@
 ```
 
   2. input() method 
-  
+
   ```Python
     name = input("Please enter your name : ")
     print("Hello "+name+" welcome to python learning")
@@ -139,15 +139,15 @@
 #### Control Flow Statements 
   1. Conditional Statements - Will be used to run block of code if certain condition met
 
-    1. Simple if ( if )
-    
-    ```Python
+  1. Simple if ( if )
+  
+  ```Python
 
-      if(True):
-        pass
-        # Thie block of code will get executed 
+    if(True):
+      pass
+      # Thie block of code will get executed 
 
-    ```
+  ```
 
     2. if-else 
     
