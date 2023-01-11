@@ -130,10 +130,10 @@
 
   2. input() method 
   
-    ```Python
-      name = input("Please enter your name : ")
-      print("Hello "+name+" welcome to python learning")
-    ```
+  ```Python
+    name = input("Please enter your name : ")
+    print("Hello "+name+" welcome to python learning")
+  ```
 
 
 #### Control Flow Statements 
