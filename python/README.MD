@@ -137,7 +137,7 @@
 
 
 #### Control Flow Statements 
-  1. Conditional Statements - Will be used to run block of code if certain condition met
+  - Conditional Statements - Will be used to run block of code if certain condition met
 
   1. Simple if ( if )
   
@@ -149,7 +149,7 @@
 
   ```
 
-    2. if-else 
+  2. if-else 
     
   ```Python
     age = 20
@@ -160,28 +160,28 @@
 
   ```
     
-    3. if - elif - else 
+  3. if - elif - else 
 
 
-    ```Python
-      # Assign grades to students based on marks
-      # Grade A ==>  >= 85%
-      # Grade B ==>  < 85% to >= 60
-      # Grade C ==>  35 to 60
-      # Grade D ==>  Failed => < 35
-      
-      totalMarks = 55
+  ```Python
+    # Assign grades to students based on marks
+    # Grade A ==>  >= 85%
+    # Grade B ==>  < 85% to >= 60
+    # Grade C ==>  35 to 60
+    # Grade D ==>  Failed => < 35
+    
+    totalMarks = 55
 
-      if(totalMarks >= 85):
-        print("You passed with GRADE A marks")
-      elif(totalMarks >= 60 and totalMarks < 85):
-        print("You passed with GRADE B marks")
-      elif(totalMarks >= 60 and totalMarks < 85):
-        print("You passed with GRADE C marks")
-      else:
-        print("Sorry, You are not clear the exam.")
+    if(totalMarks >= 85):
+      print("You passed with GRADE A marks")
+    elif(totalMarks >= 60 and totalMarks < 85):
+      print("You passed with GRADE B marks")
+    elif(totalMarks >= 60 and totalMarks < 85):
+      print("You passed with GRADE C marks")
+    else:
+      print("Sorry, You are not clear the exam.")
 
-    ```
+  ```
 
   2. the while statement 
 
