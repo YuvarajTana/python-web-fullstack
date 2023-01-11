@@ -183,11 +183,25 @@
 
   ```
 
-  2. the while statement 
-
+  2. The while statement 
+    - Loops are useed to repeat block code till certain condition met
   
+  ```Python
+    # Syntax 
+    maxNumber = 15
+    startNumber = 4
+    while startNumber <= maxNumber:
+      print(startNumber)
+      startNumber = startNumber + 1
 
-  3. the for statement
+  ```
+
+  3. The for statement
+    - The for loop is used to run a block of code for a certain number of times. It is used to iterate over any sequences such as list, tuple, string,
+    
+  ```Python
+  
+  ```
 
 #### List
 
