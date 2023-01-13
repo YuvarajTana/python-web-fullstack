@@ -143,13 +143,35 @@
   
   ```Python
 
+    # Syntax 
+    if(condition):
+      pass
+      # code block
+
+
     if(True):
       pass
       # Thie block of code will get executed 
 
+
+
   ```
 
   2. if-else 
+
+  ```Python
+  
+  # Syntax 
+  if(condition):
+    # if code block 
+    pass
+  else:
+    # else code block
+    pass
+    # code block
+
+  ```
+
     
   ```Python
     age = 20
