@@ -137,7 +137,8 @@
 
 
 #### Control Flow Statements 
-  - Conditional Statements - Will be used to run block of code if certain condition met
+##### Conditional Statements 
+  - Will be used to run block of code if certain condition met
 
   1. Simple if ( if )
   
@@ -162,7 +163,7 @@
   ```Python
   
   # Syntax 
-  if(condition):
+  if <Expression>:
     # if code block 
     pass
   else:
@@ -204,10 +205,20 @@
       print("Sorry, You are not clear the exam.")
 
   ```
+##### Iterators Loops
+- Loops are useed to repeat block code till certain condition met
+- When we want to run block of code for multiple times we will use loops
 
-  2. The while statement 
-    - Loops are useed to repeat block code till certain condition met
-  
+1. The while statement
+
+
+  ```Python
+
+    while <Expression>: 
+      statements ===> This block of code will execute repeatdly, often referred as body of the looop
+
+  ```
+
   ```Python
     # Syntax 
     maxNumber = 15
@@ -218,8 +229,9 @@
 
   ```
 
-  3. The for statement
-    - The for loop is used to run a block of code for a certain number of times. It is used to iterate over any sequences such as list, tuple, string,
+2. The for statement
+
+  - The for loop is used to run a block of code for a certain number of times. It is used to iterate over any sequences such as list, tuple, string,
     
   ```Python
   
