@@ -231,21 +231,38 @@
 
 2. The for statement
 
-  - The for loop is used to run a block of code for a certain number of times. It is used to iterate over any sequences such as list, tuple, string,
+  - The for loop is used to run a block of code for a certain number of times. It is used to iterate over any sequences such as list, tuple, string
     
   ```Python
+  # Syntax
+  for val in sequeance:
+    # statements
+
+  ```
+
+  ``` Python
   
+  topPopulatedStates = ['Uttar Pradesh', 'Maharastra', 'Bihar',  'West Bengal', 'Madhya Pradesh']
+
+  
+  for state in topPopulatedStates:
+    print(state)
+  
+
   ```
 
 #### List
+- List is collection of data similar data and it can be same or data types
+- Suppose we need to record top 5 states by population of. Instead of creating 5    
+  separate variables, we can simply create a list
 
-  ```Python
+```Python
 
-  state_names = ['Karnataka','Maharastra', 'Andhra Pradesh']
+topPopulatedStates = ['Uttar Pradesh', 'Maharastra', 'Bihar',  'West Bengal', 'Madhya Pradesh']
 
-  ```
+```
 
-### Dictonaries 
+#### Dictonaries 
   ```Python
 
   person_details = {
@@ -255,7 +272,7 @@
 
   ```
   
-### functions
+#### functions
   ```Python
 
     def function_name(name):
