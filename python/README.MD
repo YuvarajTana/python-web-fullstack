@@ -182,7 +182,7 @@
   3. nested if
 
   - If statement inside a if statement 
-  
+
   ```Python
     if(True):
       # another if block inside if
@@ -223,9 +223,8 @@
 
   ```
 #### Loops(Repetation)
-A repetition statement is used to repeat a group(block) of programming instructions.
-
-In Python, we generally have two loops/repetitive statements:
+- A repetition statement is used to repeat a group(block) of programming instructions.
+- In Python, we generally have two loops/repetitive statements:
     for loop
     while loop
 
