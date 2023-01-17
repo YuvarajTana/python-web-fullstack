@@ -181,23 +181,24 @@
   ```
   3. nested if
 
-    - If statement inside a if statement 
-
-    ```Python
+  - If statement inside a if statement 
+  
+  ```Python
+    if(True):
+      # another if block inside if
       if(True):
-        # another if block inside if
-        if(True):
-          # block code inside nested if 
-    ```
+        # block code inside nested if 
+  ```
 
-    ```Python
-      # Print a positive number and should be greater than 20
-      number = 22
-      if( number > 0):
-        if( number > 20):
-          print("Its True")
 
-    ```
+  ```Python
+    # Print a positive number and should be greater than 20
+    number = 22
+    if( number > 0):
+      if( number > 20):
+        print("Its True")
+
+  ```
 
   4. if - elif - else 
 
