@@ -135,9 +135,7 @@
     print("Hello "+name+" welcome to python learning")
   ```
 
-
-#### Control Flow Statements 
-##### Conditional Statements 
+#### Conditional Statements 
   - Will be used to run block of code if certain condition met
 
   1. Simple if ( if )
@@ -149,13 +147,12 @@
       pass
       # code block
 
-
-    if(True):
-      pass
+    # Check for even number 
+    number = 20
+    if( number % 2 == 0):
       # Thie block of code will get executed 
-
-
-
+      print("Its a even number")
+      
   ```
 
   2. if-else 
@@ -182,8 +179,10 @@
       print("You are not eligible for vote")
 
   ```
-    
-  3. if - elif - else 
+  3. nested if
+    - If statement inside a if statement 
+
+  4. if - elif - else 
 
 
   ```Python
@@ -205,9 +204,15 @@
       print("Sorry, You are not clear the exam.")
 
   ```
-##### Iterators Loops
-- Loops are useed to repeat block code till certain condition met
-- When we want to run block of code for multiple times we will use loops
+#### Loops(Repetation)
+A repetition statement is used to repeat a group(block) of programming instructions.
+
+In Python, we generally have two loops/repetitive statements:
+    for loop
+    while loop
+
+<!-- - Loops are useed to repeat block code till certain condition met
+- When we want to run block of code for multiple times we will use loops -->
 
 1. The while statement
 
@@ -261,6 +266,7 @@
 topPopulatedStates = ['Uttar Pradesh', 'Maharastra', 'Bihar',  'West Bengal', 'Madhya Pradesh']
 
 ```
+
 
 #### Dictonaries 
   ```Python
