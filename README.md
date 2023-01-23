@@ -23,3 +23,17 @@
 #### Data Source 
   1. SQL ( MySQL )
 
+
+### References:
+
+#### Videos
+- [CS50 Harward computer science](https://www.youtube.com/watch?v=OvKCESUCWII&list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
+- [Python for beginner course by freecodecamp](https://www.youtube.com/watch?v=eWRfhZUzrAc)
+- [Python Beginners by Mosh](https://www.youtube.com/watch?v=kqtD5dpn9C8)
+
+#### Tutorials/Blogs
+- [Python Basics](https://www.pythoncheatsheet.org/cheatsheet/basics)
+- [Ultimate Python](https://github.com/huangsam/ultimate-python)
+- [Fullstack Python](https://www.fullstackpython.com/)
+
+
