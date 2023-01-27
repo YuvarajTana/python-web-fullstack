@@ -274,9 +274,20 @@
   ```
 
 #### List
-- List is collection of data similar data and it can be same or data types
+
+- List is collection of similar data and it can be same or data types
 - Suppose we need to record top 5 states by population of. Instead of creating 5    
   separate variables, we can simply create a list
+
+```Pyhton
+
+  # The list can be created as []
+
+  empty_list = []
+
+
+```
+
 
 ```Python
 
@@ -284,6 +295,78 @@ topPopulatedStates = ['Uttar Pradesh', 'Maharastra', 'Bihar',  'West Bengal', 'M
 
 ```
 
+- List operations
+  
+  - append(item) : It adds an item to end of the list
+
+  ``` Python
+  
+  fruits = ['apple','oranges']
+  
+  fruits.append('Bananas')
+
+  # Now fruits will be like this ['apple','oranges','Bananas']
+
+  ```
+
+  - pop : It is used to remove list item from the list 
+
+  ``` Python
+      fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
+  
+      fruits.pop() # This will remove the last item from the list 
+
+      # Now the result list is ['apple','oranges', 'Bananas', 'Grapes']
+
+      # We can also remove the specific list item 
+
+      fruits.pop(2) # This will removes 'Bananas' from the list 
+
+      # Now the final list will be ['apple','oranges','Grapes']
+
+  ```
+  - insert : It inserts an item at a given position 
+  
+  - Syntax - list.insert(index,value)
+
+  ``` Python
+      fruits = ['apple','oranges', 'Bananas', 'Grapes']
+  
+      fruits.insert(2,'Straberry') # This will insert item at index 2 
+
+      # Now the final list will be ['apple','oranges', 'Straberry' 'Bananas', 'Grapes']
+  ```
+
+  - remove : It removes first matched item from the list
+
+    ``` Python
+      fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
+  
+      fruits.remove('Bananas') # This will remove the last item from the list 
+
+      # Now the final list will be ['apple','oranges', 'Grapes']
+
+    ```
+  - clear : It removes all items from the list
+  
+      ``` Python
+      fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
+  
+      fruits.clear('Bananas') # This will removes all items from the list
+
+      # Now the final list will be []
+
+      ```
+    - Reverse : It reverse items from the list
+  
+      ``` Python
+      fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
+  
+      fruits.reverse() # This will reverse the all items of the list
+
+      # Now the final list will be ['Kiwi', 'Grapes', 'Bananas', 'oranges', 'apple']
+
+      ```
 
 #### Dictonaries 
   ```Python
