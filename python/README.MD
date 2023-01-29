@@ -272,6 +272,13 @@
   
 
   ```
+  - for with range 
+
+  ```Python
+  for i in range(5):
+    print(i)
+    
+  ```
 
 #### List
 
@@ -395,32 +402,25 @@ topPopulatedStates = ['Uttar Pradesh', 'Maharastra', 'Bihar',  'West Bengal', 'M
 
     ```
 
-
-
-
-
-
-
 #### Dictonaries 
-- 
-  ```Python
+```Python
 
-  person_details = {
-    name: "Ravi Kumar",
-    age: 25
-  }
+person_details = {
+  name: "Ravi Kumar",
+  age: 25
+}
 
-  ```
+```
   
 #### functions
-  ```Python
+```Python
 
-    def function_name(name):
-      print(name)
+  def function_name(name):
+    print(name)
 
 
 
-  ```
+```
 
 
 
