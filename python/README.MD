@@ -357,18 +357,52 @@ topPopulatedStates = ['Uttar Pradesh', 'Maharastra', 'Bihar',  'West Bengal', 'M
       # Now the final list will be []
 
       ```
-    - Reverse : It reverse items from the list
-  
-      ``` Python
-      fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
-  
-      fruits.reverse() # This will reverse the all items of the list
+  - Reverse : It reverse items from the list
 
-      # Now the final list will be ['Kiwi', 'Grapes', 'Bananas', 'oranges', 'apple']
+    ``` Python
+    fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
 
-      ```
+    fruits.reverse() # This will reverse the all items of the list
+
+    # Now the final list will be ['Kiwi', 'Grapes', 'Bananas', 'oranges', 'apple']
+
+    ```
+  - How to check an item/value exists in list
+
+    - Using in operator 
+
+    ```Python
+
+    fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
+
+    if('apple' in fruits): # True
+      print('Apple found in the list')
+    else:
+      print('Apple not found in the list')
+    
+    ```
+    
+    - Using for loop
+
+    ```Python
+
+    fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
+    for fruit in fruits:
+      if( fruit == 'apple'): # True
+        print('Apple found in the list')
+      else:
+        print('Apple not found in the list')
+
+    ```
+
+
+
+
+
+
 
 #### Dictonaries 
+- 
   ```Python
 
   person_details = {
