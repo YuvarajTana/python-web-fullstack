@@ -96,3 +96,66 @@
 
 
   
+
+
+```JavaScript
+
+
+  let numbers = [1,2,3,4]; 
+
+  // // Push 
+  // let updated = numbers.push(5) 
+
+  // [1,2,3,4,5] // mutating 
+
+
+const person = {
+  name:"Pavithra",
+  age:20,
+};
+
+// person.age = 21;
+
+// person['address'] = "Nellore";
+
+
+// const person2 = person;
+
+// person2.age = 21;
+
+
+
+
+
+
+
+
+
+
+
+
+
+let numbers2 = structedClone(numbers);
+
+  numbers2.push(5);
+
+
+
+
+
+let numbers = [1,2,3,4];   
+
+
+let updatedWithCountryCode = numbers.map(item => {
+  return `+91${item}`;
+}) // ["+911","+912","+913", "+914"]
+
+
+numbers === updatedWithCountryCode // True 
+
+
+
+
+
+
+```

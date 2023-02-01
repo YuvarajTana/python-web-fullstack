@@ -346,34 +346,34 @@ topPopulatedStates = ['Uttar Pradesh', 'Maharastra', 'Bihar',  'West Bengal', 'M
 
   - remove : It removes first matched item from the list
 
-    ``` Python
-      fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
-  
-      fruits.remove('Bananas') # This will remove the last item from the list 
-
-      # Now the final list will be ['apple','oranges', 'Grapes']
-
-    ```
-  - clear : It removes all items from the list
-  
-      ``` Python
-      fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
-  
-      fruits.clear('Bananas') # This will removes all items from the list
-
-      # Now the final list will be []
-
-      ```
-  - Reverse : It reverse items from the list
-
-    ``` Python
+  ``` Python
     fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
 
-    fruits.reverse() # This will reverse the all items of the list
+    fruits.remove('Bananas') # This will remove the last item from the list 
 
-    # Now the final list will be ['Kiwi', 'Grapes', 'Bananas', 'oranges', 'apple']
+    # Now the final list will be ['apple','oranges', 'Grapes']
 
-    ```
+  ```
+  - clear : It removes all items from the list
+  
+  ``` Python
+  fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
+
+  fruits.clear('Bananas') # This will removes all items from the list
+
+  # Now the final list will be []
+
+  ```
+  - Reverse : It reverse items from the list
+
+  ``` Python
+  fruits = ['apple','oranges', 'Bananas', 'Grapes', 'Kiwi']
+
+  fruits.reverse() # This will reverse the all items of the list
+
+  # Now the final list will be ['Kiwi', 'Grapes', 'Bananas', 'oranges', 'apple']
+
+  ```
   - How to check an item/value exists in list
 
     - Using in operator 
