@@ -1,25 +1,15 @@
 ## Python fundamentals
-### Links to concepts
+### List of concepts
 - [Data Types](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#data-types)
-
 - [Variables](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#variables)
-
 - [Reserve Keywords](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#reserve-keywords)
-
 - [Identifiers](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#indentifiers)
-
 - [Operators](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#operators)
-
 - [Input/Output](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#input-and-output)
-
 - [Conditional Statements](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#conditional-statements)
-
 - [Loos](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#loopsrepetation)
-
 - [List](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#list)
-
 - [Dictionaries](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#dictonaries)
-
 - [Functions](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#functions)
 
 
