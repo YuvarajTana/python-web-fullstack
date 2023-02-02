@@ -403,16 +403,62 @@ topPopulatedStates = ['Uttar Pradesh', 'Maharastra', 'Bihar',  'West Bengal', 'M
     ```
 
 #### Dictonaries 
+- Dictionary represnts a collection of key and value pairs, here keys are unique identifiers that are mapped with each value
+
+- Syntax
+
 ```Python
+  dictionary_name = {
+    key : value
+  }
+``` 
+
+```Python
+# When we want to store collection / group of releated with keys and values, we can go for dictionaries 
 
 person_details = {
   name: "Ravi Kumar",
-  age: 25
+  age: 25,
+  city: "Bengaluru"
 }
 
 ```
+- Working with dictnaries 
+
+  - Creating dictonaries 
+  ```Python
+    employee_details = {
+      id : 1001,
+      name: "Ravi Kumar",
+      salary: 2600000,
+      department: "Engineering",
+      designation: "Senior Software Engineer"
+    }
+
+  ```
+  - Adding key and values to already created dictionary 
+
+  ```Python
   
+  employee_details['reportingManager'] = 'Santosh'
+
+  
+  
+  ```
+  - Changing value of the key from the dictionary
+
+  ```Python
+  employee_details['salary'] = 3500000
+  ```
+  - How to access values from the dictionary
+  ```Python
+  print(employee_details['id'])
+  ```
+
+
+
 #### functions
+
 ```Python
 
   def function_name(name):
