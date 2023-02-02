@@ -1,4 +1,17 @@
 ## Python fundamentals
+### Links to concepts
+[Data Types](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#data-types)
+[Variables](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#variables)
+[Reserve Keywords](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#reserve-keywords)
+[Identifiers](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#indentifiers)
+[Operators](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#operators)
+[Input/Output](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#input-and-output)
+[Conditional Statements](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#conditional-statements)
+[Loos](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#loopsrepetation)
+[List](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#list)
+[Dictionaries](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#dictonaries )
+[Functions](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#functions)
+
 #### Data Types
   - Numeric types - int, float
 
@@ -222,6 +235,7 @@
       print("Sorry, You are not clear the exam.")
 
   ```
+
 #### Loops(Repetation)
 - A repetition statement is used to repeat a group(block) of programming instructions.
 - In Python, we generally have two loops/repetitive statements:
