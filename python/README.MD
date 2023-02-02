@@ -473,12 +473,26 @@ person_details = {
 
 
 #### functions
+- A function is block of organized code to perform single task. It provides better modularity and re usability
+
+- Syntax : 
+
+```Python
+  def name_of_the_function():
+    #Block of code 
+
+  # Invoking function
+  name_of_the_function()
+```
 
 ```Python
 
-  def function_name(name):
-    print(name)
-
+  def evenNumber():
+    eneteredNumber = int(input("Please enter a number => "))
+    if(eneteredNumber % 2 == 0 ):
+      print(eneteredNumber, 'is Even number')
+    else:
+      print(eneteredNumber, 'is Odd number')
 
 
 ```
