@@ -7,7 +7,7 @@
 - [Operators](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#operators)
 - [Input/Output](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#input-and-output)
 - [Conditional Statements](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#conditional-statements)
-- [Loos](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#loopsrepetation)
+- [Loops](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#loopsrepetation)
 - [List](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#list)
 - [Dictionaries](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#dictonaries)
 - [Functions](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#functions)
@@ -496,6 +496,27 @@ person_details = {
 
 
 ```
+### String
+ - String is one of the data type and the string operations are like - finding length of strin, iterating over string characters, concatinations and much more 
+ - Anything between single(''), double(""), and triple quotes(''' ''') symbols will be a strings
+ 
+    ```Python
+      # String with single quotes 
+      'Sample String'
+
+      # String with double quotes 
+      "Hello"
+
+      # String with single quotes 
+      '''
+        Sample string  with triple quutes
+        Welcome to world of programming
+      '''
+
+### Tuple
+
+### Class
+
 
 
 
