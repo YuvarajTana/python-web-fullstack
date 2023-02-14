@@ -13,7 +13,7 @@
 - [Functions](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#functions)
 
 
-#### Data Types
+### Data Types
   - Numeric types - int, float
 
     ```Python
@@ -52,7 +52,7 @@
     ```
 
 
-#### Variables
+### Variables
 
   - Reserved memory location used to store values. It can be used to access those vaules later in life of program.
 
@@ -64,7 +64,7 @@
 
 ```
 
-#### Reserve keywords
+### Reserve keywords
 ```Python
 
   True
@@ -89,10 +89,13 @@
   as
   is
   in
+  
+  class
+  
 
 ```
 
-#### Indentifiers
+### Indentifiers
     - User defined names to represent varaible, function, module and class or any other objects
 
     - Rules: 
@@ -102,7 +105,7 @@
         - Mixed digits and underscore (_)
 
 
-#### Operators
+### Operators
   - Operators are special symbols that perform operations on variables and values
 
   1. Logical operators
@@ -132,7 +135,7 @@
       - Subtraction Assignment ( -= ) 
       - Multiplication Assignment ( *= )
 
-#### Input and Output 
+### Input and Output 
 
   1. print() method
 
@@ -149,7 +152,7 @@
     print("Hello "+name+" welcome to python learning")
   ```
 
-#### Conditional Statements 
+### Conditional Statements 
   - Will be used to run block of code if certain condition met
 
   1. Simple if ( if )
@@ -237,7 +240,7 @@
 
   ```
 
-#### Loops(Repetation)
+### Loops(Repetation)
 - A repetition statement is used to repeat a group(block) of programming instructions.
 - In Python, we generally have two loops/repetitive statements:
     for loop
@@ -295,7 +298,7 @@
     
   ```
 
-#### List
+### List
 
 - List is collection of similar data and it can be same or data types
 - Suppose we need to record top 5 states by population of. Instead of creating 5    
@@ -417,7 +420,7 @@ topPopulatedStates = ['Uttar Pradesh', 'Maharastra', 'Bihar',  'West Bengal', 'M
 
     ```
 
-#### Dictonaries 
+### Dictonaries 
 - Dictionary represnts a collection of key and value pairs, here keys are unique identifiers that are mapped with each value
 
 - Syntax
@@ -472,7 +475,7 @@ person_details = {
 
 
 
-#### functions
+### functions
 - A function is block of organized code to perform single task. It provides better modularity and re usability
 
 - Syntax : 
@@ -525,16 +528,157 @@ person_details = {
 ### Class
   - Python class is a template / blueprint (prototype) for creating real world objects. Its like sketch or plan on your papaer/toughts for constructing real house. It contains all the details based on we will be constucting a house. 
   - Python class consists of class vaiables, methods and much more which will help us to create real world objects 
-  
-#### Class syntax
+
+**Class syntax**
 ```Python
-  class Class_Name:
-    # class members, varaibles and methods
+  class Employee:
+    pass
 ```
-  
-  
 
 
+**Creating instance from the class**
+```Python
+class Employee:
+  pass
+
+emp1 = Employee()
+```
+
+**Class with variables and methods, these will be shared across all the instances of class**
+```Python
+class Employee:
+  companyName = "Google India Pvt Ltd" # It is a class variable 
+
+  def getCompanyName(self):
+    return Employee.companyName
+
+
+emp1 = Employee()
+
+# We can access employee count by class and instance like as 
+print(Employee.companyName)
+print(emp1.getCompanyName())
+```
+
+
+**Class with constructor, instance variables and methods**
+```Python
+class Employee:
+  companyName = "Google India Pvt Ltd" # It is a class variable 
+
+  def __init__(self, name, age, employeeId):
+    self.name = name
+    self.age = age
+    self.employeeId = employeeId
+
+  def getEmployeeDetails(self):
+    return "Name : " + self.name + ", Employee Id : " + str(self.employeeId) + ", Company Name : " + Employee.companyName
+  
+emp1 = Employee("Yuvaraj",30,230)
+emp2 = Employee("Rajesh",40,225)
+
+
+print(emp1.getEmployeeDetails())
+print(Employee.companyName)
+print(emp2.getEmployeeDetails())
+
+```
+**===Inheritance===**
+```Python
+class Employee:
+  companyName = "Google India Pvt Ltd"
+
+  def __init__(self, name, age, employeeId):
+    self.name = name
+    self.age = age
+    self.employeeId = employeeId
+
+  def getEmployeeDetails(self):
+    return "Name : " + self.name + ", Employee Id : " + str(self.employeeId) + ", Company Name : " + Employee.companyName
+
+
+class ItTeam(Employee):
+  reportingManger = 'Some xyz'
+
+it1 = ItTeam("Mahesh",40,34440)
+```
+
+**Reusablity with inheritance**
+
+```Python
+# Inheritance 
+class Employee:
+  companyName = "Google India Pvt Ltd"
+
+  def __init__(self, name, age, employeeId):
+    self.name = name
+    self.age = age
+    self.employeeId = employeeId
+
+  def getEmployeeDetails(self):
+    return "Name : " + self.name + ", Employee Id : " + str(self.employeeId) + ", Company Name : " + Employee.companyName
+
+
+class ItTeam(Employee):
+  reportingManger = 'Some xyz'
+
+  def __init__(self, name, age, employeeId):
+    super().__init__(name, age, employeeId)
+  
+
+class EngineeringTeam(Employee):
+  reportingManger = "Some ABCD"
+
+  def __init__(self, name, age, employeeId):
+    super().__init__(name, age, employeeId)
+
+  def getMyWork(self):
+    return " => I work as programmer"
+
+class MangementTeam(Employee):
+  def __init__(self, name, age, employeeId):
+    super().__init__(name, age, employeeId)
+
+  def checkCompanyPerformance(self):
+    return " Done "
+
+
+it1 = ItTeam("Mahesh",40,34440)
+eEmp1 = EngineeringTeam('Jhon', 35, 4500)
+mEmp1 = MangementTeam('Steve', 55, 12)
+
+print(it1.getEmployeeDetails())
+print(eEmp1.getEmployeeDetails(), eEmp1.getMyWork())
+
+
+print(mEmp1.getEmployeeDetails(), mEmp1.checkCompanyPerformance())
+
+```
+
+**Method Overriding**
+```Python
+class Employee:
+  companyName = "Google India Pvt Ltd"
+
+  def __init__(self, name, age, employeeId):
+    self.name = name
+    self.age = age
+    self.employeeId = employeeId
+
+  def getEmployeeDetails(self):
+    return "Name : " + self.name + ", Employee Id : " + str(self.employeeId) + ", Company Name : " + Employee.companyName
+
+
+class ItTeam(Employee):
+  reportingManger = 'Some xyz'
+
+    def getEmployeeDetails(self):
+    return "Name : " + self.name + ", Employee Id : " + str(self.employeeId) + ", Company Name : " + Employee.companyName + " and I report to " + ItTeam.reportingManger
+
+
+it1 = ItTeam("Mahesh",40,34440)
+
+```
 
 
 
