@@ -516,6 +516,16 @@ person_details = {
 ### Tuple
 
 ### Class
+  - Python class is a template / blueprint (prototype) for creating real world objects. Its like sketch or plan on your papaer/toughts for constructing real house. It contains all the details based on we will be constucting a house. 
+  - Python class consists of class vaiables, methods and much more which will help us to create real world objects 
+  
+#### Class syntax
+```Python
+  class Class_Name:
+    # class members, varaibles and methods
+```
+  
+  
 
 
 
