@@ -514,6 +514,13 @@ person_details = {
       '''
 
 ### Tuple
+  - A tuple works almost same as list. The difference between the two is that we cannot change the elements of a tuple once it is assigned where as its possible with list.
+  
+  ```Python
+    ()
+    (1,2,3)
+    ("sting","tes")
+  ```
 
 ### Class
   - Python class is a template / blueprint (prototype) for creating real world objects. Its like sketch or plan on your papaer/toughts for constructing real house. It contains all the details based on we will be constucting a house. 
