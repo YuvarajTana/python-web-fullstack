@@ -11,6 +11,9 @@
 - [List](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#list)
 - [Dictionaries](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#dictonaries)
 - [Functions](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#functions)
+- [Class](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#class)
+- [Modules](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#modules)
+- [Error and Exceptions](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#modules)
 
 
 ### Data Types
