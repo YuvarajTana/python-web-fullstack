@@ -684,7 +684,42 @@ it1 = ItTeam("Mahesh",40,34440)
 ```
 
 
+### Modules
+  - Module is a file that contains code base to perform a specific function. A module may contain variables, functions, classes etc.
+ 
+**Import Syntax**
 
+```Python
+# Lets say we have two files called mathOperations.py and main.py files
+# Import followed by filename 
+import mathOperations
+
+```
+**importing perticuler class or function from a file
+
+```Python
+  from mathOperations import add
+```
+
+***Example** 
+```Python
+# File 1 called exampleModule.py 
+def sayHello():
+  print('Hello World!')
+
+def sayHi():
+  print('Hello Hi')
+
+# File2 called main.py
+# Importing whole file as module and using them
+import exampleModule 
+exampleModule.sayHello() # This will print Hello World!
+
+# Importing particular function or class from module
+
+from exampleModule import sayHello
+sayHello()
+```
 
 
   
