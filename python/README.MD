@@ -13,7 +13,8 @@
 - [Functions](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#functions)
 - [Class](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#class)
 - [Modules](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#modules)
-- [Error and Exceptions](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#modules)
+- [Packages](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#Packages)
+- [Error and Exceptions](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#ErrorAndExpceptions)
 
 
 ### Data Types
@@ -722,4 +723,10 @@ sayHello()
 ```
 
 
-  
+### Packages 
+- Package is collections of modules and files to perform complete functionality of any task
+
+
+### ErrorAndExpceptions
+
+
