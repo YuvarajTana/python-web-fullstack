@@ -695,13 +695,13 @@ it1 = ItTeam("Mahesh",40,34440)
 import mathOperations
 
 ```
-**importing perticuler class or function from a file
+**importing perticuler class or function from a file**
 
 ```Python
   from mathOperations import add
 ```
 
-***Example** 
+**Example** 
 ```Python
 # File 1 called exampleModule.py 
 def sayHello():
