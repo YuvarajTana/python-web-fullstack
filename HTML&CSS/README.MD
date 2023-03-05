@@ -1,25 +1,27 @@
-## HTML 
+### HTML 
 
-  - What is HTML
-  - Tag and elements 
-  
-  - Semantic elements 
+  #### What is HTML
+    - HTML is markup language and it is used to build web pages. And, it is fundamental technology used to define the structure of webpage. 
+    - HTML is made up of elements, which can be text, image, form and media elements
+     
+  #### Text elements 
+
+  #### Semantic elements 
     - header, footer, nav, sidebar, section, article
 
-  - Form elements 
+  #### Form elements 
     - Input Type -> text, password, radio, checkbox, number, date, button, submit, file
     - DropDown -> <select><otpion>1</option><otpion>2</option></select>
     - Button element 
     - TextArea 
 
-  - Anchror elements
+  #### Anchror element
     - <a hrer="https://youtube.com">Click here to go to Yotube</a>
   
-  - Image element 
-
+  #### Image element 
     - <img src="sakjbfhjwd.com" alt="Sample Image"/>
   
-  - List elments 
+  #### List elments
     - ordered lists
       <ol>
         <li></li>
@@ -29,7 +31,7 @@
         <li></li>
       <ol>
   
-  - Table
+  #### Table
     <table>
       <thead>
         <th><td></th></th>
@@ -42,23 +44,26 @@
     </table>
 
 
-  - Media elements
+  #### Media elements
     1. Audio
     2. Video
 
-  - Canvas,
+  #### Canvas,
 
-  - SVG
+  #### SVG
     
   
-## CSS
+### CSS
+  
+  #### What and why css
+  - CSS can be defined as set rules and properties to stying the web pages 
 
-  - How to apply styles 
+  #### How to apply styles 
     - Inline styles 
     - Internal (Using style tag)
     - External styles (Seprate file)
 
-  - Basic selectors 
+  #### Basic selectors 
     - element selector
 
     - id
@@ -70,15 +75,15 @@
     - Attribute selector 
 
     - child selectors
+
   
-  - Basic style properties 
+  #### Basic style properties 
 
     - width and height
     - margin and padding 
     - border
-    - dispaly 
     - font styles (font-size, color, font-weight, font-family )
-
+    - dispaly 
     - background
     - position
 
@@ -87,11 +92,11 @@
     - opacity
     - overflow properties  
 
-  - Layout properties
-    - Display flex and grid
+  #### Layout properties
     - media quries 
-
-  - Advanced properties 
+    - Display flex and grid
+    
+  #### Advanced properties 
     - Container 
     - Content visibility 
     - Aspect ratio
