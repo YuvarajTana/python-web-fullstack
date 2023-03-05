@@ -107,26 +107,27 @@
     
   #### Transitions and Animations 
     
-    ***Transitions***
-    <!-- Sample html -->
+  ***Transitions***
+  <!-- Sample html -->
 
-    ```HTML
-      <p>Hello World, Welcome to the world of web programming</p>
-    ```
+  ```HTML
+    <p>Hello World, Welcome to the world of web programming</p>
+  ```
 
-    ```CSS
-    p{
-      font-size:14px;
-      transition-property: font-size;
-      transition-duration: 2s;
-      transition-delay: 1s;
-    }
-    p:hover{
-      font-size:32px
-    }
-    ```
+  ```CSS
+  p{
+    font-size:14px;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 1s;
+  }
+  p:hover{
+    font-size:32px
+  }
+  ```
 
-    ***Animations***
+  ***Animations***
+
 
   #### Writing better CSS 
 
