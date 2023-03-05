@@ -92,6 +92,9 @@
     - opacity
     - overflow properties  
 
+  #### Understanding BOX Model 
+    - BoxModel is abstract pattern used to determine width and height of html emlement by considering content actual dimensions and its padding, margin and border 
+
   #### Layout properties
     - media quries 
     - Display flex and grid
@@ -102,7 +105,30 @@
     - Aspect ratio
 
     
+  #### Transitions and Animations 
+    
+    ***Transitions***
+    <!-- Sample html -->
 
+    ```HTML
+      <p>Hello World, Welcome to the world of web programming</p>
+    ```
+
+    ```CSS
+    p{
+      font-size:14px;
+      transition-property: font-size;
+      transition-duration: 2s;
+      transition-delay: 1s;
+    }
+    p:hover{
+      font-size:32px
+    }
+    ```
+
+    ***Animations***
+
+  #### Writing better CSS 
 
 
 
