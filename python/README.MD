@@ -7,13 +7,17 @@
 - [Operators](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#operators)
 - [Input/Output](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#input-and-output)
 - [Conditional Statements](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#conditional-statements)
-- [Loos](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#loopsrepetation)
+- [Loops](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#loopsrepetation)
 - [List](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#list)
 - [Dictionaries](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#dictonaries)
 - [Functions](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#functions)
+- [Class](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#class)
+- [Modules](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#modules)
+- [Packages](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#Packages)
+- [Error and Exceptions](https://github.com/YuvarajTana/python-web-fullstack/tree/main/python#ErrorAndExpceptions)
 
 
-#### Data Types
+### Data Types
   - Numeric types - int, float
 
     ```Python
@@ -52,7 +56,7 @@
     ```
 
 
-#### Variables
+### Variables
 
   - Reserved memory location used to store values. It can be used to access those vaules later in life of program.
 
@@ -64,7 +68,7 @@
 
 ```
 
-#### Reserve keywords
+### Reserve keywords
 ```Python
 
   True
@@ -89,10 +93,13 @@
   as
   is
   in
+  
+  class
+  
 
 ```
 
-#### Indentifiers
+### Indentifiers
     - User defined names to represent varaible, function, module and class or any other objects
 
     - Rules: 
@@ -102,7 +109,7 @@
         - Mixed digits and underscore (_)
 
 
-#### Operators
+### Operators
   - Operators are special symbols that perform operations on variables and values
 
   1. Logical operators
@@ -132,7 +139,7 @@
       - Subtraction Assignment ( -= ) 
       - Multiplication Assignment ( *= )
 
-#### Input and Output 
+### Input and Output 
 
   1. print() method
 
@@ -149,7 +156,7 @@
     print("Hello "+name+" welcome to python learning")
   ```
 
-#### Conditional Statements 
+### Conditional Statements 
   - Will be used to run block of code if certain condition met
 
   1. Simple if ( if )
@@ -237,7 +244,7 @@
 
   ```
 
-#### Loops(Repetation)
+### Loops(Repetation)
 - A repetition statement is used to repeat a group(block) of programming instructions.
 - In Python, we generally have two loops/repetitive statements:
     for loop
@@ -295,7 +302,7 @@
     
   ```
 
-#### List
+### List
 
 - List is collection of similar data and it can be same or data types
 - Suppose we need to record top 5 states by population of. Instead of creating 5    
@@ -417,7 +424,7 @@ topPopulatedStates = ['Uttar Pradesh', 'Maharastra', 'Bihar',  'West Bengal', 'M
 
     ```
 
-#### Dictonaries 
+### Dictonaries 
 - Dictionary represnts a collection of key and value pairs, here keys are unique identifiers that are mapped with each value
 
 - Syntax
@@ -472,7 +479,7 @@ person_details = {
 
 
 
-#### functions
+### functions
 - A function is block of organized code to perform single task. It provides better modularity and re usability
 
 - Syntax : 
@@ -496,10 +503,230 @@ person_details = {
 
 
 ```
+### String
+ - String is one of the data type and the string operations are like - finding length of strin, iterating over string characters, concatinations and much more 
+ - Anything between single(''), double(""), and triple quotes(''' ''') symbols will be a strings
+ 
+    ```Python
+      # String with single quotes 
+      'Sample String'
 
+      # String with double quotes 
+      "Hello"
 
+      # String with single quotes 
+      '''
+        Sample string  with triple quutes
+        Welcome to world of programming
+      '''
 
-
-
-
+### Tuple
+  - A tuple works almost same as list. The difference between the two is that we cannot change the elements of a tuple once it is assigned where as its possible with list.
   
+  ```Python
+    ()
+    (1,2,3)
+    ("sting","tes")
+  ```
+
+### Class
+  - Python class is a template / blueprint (prototype) for creating real world objects. Its like sketch or plan on your papaer/toughts for constructing real house. It contains all the details based on we will be constucting a house. 
+  - Python class consists of class vaiables, methods and much more which will help us to create real world objects 
+
+**Class syntax**
+```Python
+  class Employee:
+    pass
+```
+
+
+**Creating instance from the class**
+```Python
+class Employee:
+  pass
+
+emp1 = Employee()
+```
+
+**Class with variables and methods, these will be shared across all the instances of class**
+```Python
+class Employee:
+  companyName = "Google India Pvt Ltd" # It is a class variable 
+
+  def getCompanyName(self):
+    return Employee.companyName
+
+
+emp1 = Employee()
+
+# We can access employee count by class and instance like as 
+print(Employee.companyName)
+print(emp1.getCompanyName())
+```
+
+
+**Class with constructor, instance variables and methods**
+```Python
+class Employee:
+  companyName = "Google India Pvt Ltd" # It is a class variable 
+
+  def __init__(self, name, age, employeeId):
+    self.name = name
+    self.age = age
+    self.employeeId = employeeId
+
+  def getEmployeeDetails(self):
+    return "Name : " + self.name + ", Employee Id : " + str(self.employeeId) + ", Company Name : " + Employee.companyName
+  
+emp1 = Employee("Yuvaraj",30,230)
+emp2 = Employee("Rajesh",40,225)
+
+
+print(emp1.getEmployeeDetails())
+print(Employee.companyName)
+print(emp2.getEmployeeDetails())
+
+```
+**===Inheritance===**
+```Python
+class Employee:
+  companyName = "Google India Pvt Ltd"
+
+  def __init__(self, name, age, employeeId):
+    self.name = name
+    self.age = age
+    self.employeeId = employeeId
+
+  def getEmployeeDetails(self):
+    return "Name : " + self.name + ", Employee Id : " + str(self.employeeId) + ", Company Name : " + Employee.companyName
+
+
+class ItTeam(Employee):
+  reportingManger = 'Some xyz'
+
+it1 = ItTeam("Mahesh",40,34440)
+```
+
+**Reusablity with inheritance**
+
+```Python
+# Inheritance 
+class Employee:
+  companyName = "Google India Pvt Ltd"
+
+  def __init__(self, name, age, employeeId):
+    self.name = name
+    self.age = age
+    self.employeeId = employeeId
+
+  def getEmployeeDetails(self):
+    return "Name : " + self.name + ", Employee Id : " + str(self.employeeId) + ", Company Name : " + Employee.companyName
+
+
+class ItTeam(Employee):
+  reportingManger = 'Some xyz'
+
+  def __init__(self, name, age, employeeId):
+    super().__init__(name, age, employeeId)
+  
+
+class EngineeringTeam(Employee):
+  reportingManger = "Some ABCD"
+
+  def __init__(self, name, age, employeeId):
+    super().__init__(name, age, employeeId)
+
+  def getMyWork(self):
+    return " => I work as programmer"
+
+class MangementTeam(Employee):
+  def __init__(self, name, age, employeeId):
+    super().__init__(name, age, employeeId)
+
+  def checkCompanyPerformance(self):
+    return " Done "
+
+
+it1 = ItTeam("Mahesh",40,34440)
+eEmp1 = EngineeringTeam('Jhon', 35, 4500)
+mEmp1 = MangementTeam('Steve', 55, 12)
+
+print(it1.getEmployeeDetails())
+print(eEmp1.getEmployeeDetails(), eEmp1.getMyWork())
+
+
+print(mEmp1.getEmployeeDetails(), mEmp1.checkCompanyPerformance())
+
+```
+
+**Method Overriding**
+```Python
+class Employee:
+  companyName = "Google India Pvt Ltd"
+
+  def __init__(self, name, age, employeeId):
+    self.name = name
+    self.age = age
+    self.employeeId = employeeId
+
+  def getEmployeeDetails(self):
+    return "Name : " + self.name + ", Employee Id : " + str(self.employeeId) + ", Company Name : " + Employee.companyName
+
+
+class ItTeam(Employee):
+  reportingManger = 'Some xyz'
+
+    def getEmployeeDetails(self):
+    return "Name : " + self.name + ", Employee Id : " + str(self.employeeId) + ", Company Name : " + Employee.companyName + " and I report to " + ItTeam.reportingManger
+
+
+it1 = ItTeam("Mahesh",40,34440)
+
+```
+
+
+### Modules
+  - Module is a file that contains code base to perform a specific function. A module may contain variables, functions, classes etc.
+ 
+**Import Syntax**
+
+```Python
+# Lets say we have two files called mathOperations.py and main.py files
+# Import followed by filename 
+import mathOperations
+
+```
+**importing perticuler class or function from a file**
+
+```Python
+  from mathOperations import add
+```
+
+**Example** 
+```Python
+# File 1 called exampleModule.py 
+def sayHello():
+  print('Hello World!')
+
+def sayHi():
+  print('Hello Hi')
+
+# File2 called main.py
+# Importing whole file as module and using them
+import exampleModule 
+exampleModule.sayHello() # This will print Hello World!
+
+# Importing particular function or class from module
+
+from exampleModule import sayHello
+sayHello()
+```
+
+
+### Packages 
+- Package is collections of modules and files to perform complete functionality of any task
+
+
+### ErrorAndExpceptions
+
+
