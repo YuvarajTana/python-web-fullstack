@@ -1,12 +1,15 @@
 ## JavaScript
 
+### Data Types
+
 - Data Types (Number, String, Boolean, null, undefined)
 
+### Creating variables 
 - How to create variables using var, let and const 
 
-- difference between above 
-
+### Operatos
 - operatos (=, +, -, *, /, &&, ||, ==, ===)
+
 
 - Conitional statements
   - ( (Simple if), (if - else), (nested if), (if - else if - else) )
@@ -91,8 +94,6 @@
   1. XMLHttpRequest, fetch 
 
   2. localStorare, sessionStorage
-
-  3. 
 
 
   

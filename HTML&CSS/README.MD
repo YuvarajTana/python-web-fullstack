@@ -1,176 +1,177 @@
-### HTML 
+## HTML 
 
-  ### What is HTML
-    - HTML is markup language and it is used to build web pages. And, it is fundamental technology used to define the structure of webpage. 
-    - HTML is made up of elements, which can be text, image, form and media elements
-     
-  ### Text elements 
-
-  ### Semantic elements 
-    - header, footer, nav, sidebar, section, article
-
-  ### Form elements 
-    - Input Type -> text, password, radio, checkbox, number, date, button, submit, file
-    - DropDown -> <select><otpion>1</option><otpion>2</option></select>
-    - Button element 
-    - TextArea 
-
-  ### Anchror element
-    - <a hrer="https://youtube.com">Click here to go to Yotube</a>
-  
-  ### Image element 
-    - <img src="sakjbfhjwd.com" alt="Sample Image"/>
-  
-  ### List elments
-    - ordered lists
-      <ol>
-        <li></li>
-      <ol>
-    - unordered lists
-      <ul>
-        <li></li>
-      <ol>
-  
-  ### Table
-    <table>
-      <thead>
-        <th><td></th></th>
-      </thead>
-      <tbody>
-        <tr>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-
-
-  ### Media elements
-    1. Audio
-    2. Video
-
-  ### Canvas,
-
-  ### SVG
+### What is HTML
+  - HTML is markup language and it is used to build web pages. And, it is fundamental technology used to define the structure of webpage. 
+  - HTML is made up of elements, which can be text, image, form and media elements
     
+### Text elements 
+
+### Semantic elements 
+  - header, footer, nav, sidebar, section, article
+
+### Form elements 
+  - Input Type -> text, password, radio, checkbox, number, date, button, submit, file
+  - DropDown -> <select><otpion>1</option><otpion>2</option></select>
+  - Button element 
+  - TextArea 
+
+### Anchror element
+  - <a hrer="https://youtube.com">Click here to go to Yotube</a>
+
+### Image element 
+  - <img src="sakjbfhjwd.com" alt="Sample Image"/>
+
+### List elments
+  - ordered lists
+    <ol>
+      <li></li>
+    <ol>
+  - unordered lists
+    <ul>
+      <li></li>
+    <ol>
+
+### Table
+  <table>
+    <thead>
+      <th><td></th></th>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+### Media elements
+  1. Audio
+  2. Video
+
+### Canvas,
+
+### SVG
   
+
 ## CSS
-  
-  ### What and why css
+
+### What and why css
   - CSS can be defined as set rules and properties to stying the web pages 
 
-  ### How to apply styles 
-    - Inline styles 
-    - Internal (Using style tag)
-    - External styles (Seprate file)
+### How to apply styles 
+  - Inline styles 
+  - Internal (Using style tag)
+  - External styles (Seprate file)
 
-  ### Basic selectors 
-    - element selector
+### Basic selectors 
+  - element selector
 
-    - id
+  - id
 
-    - class
+  - class
 
-    - universal selector
+  - universal selector
 
-    - Attribute selector 
+  - Attribute selector 
 
-    - child selectors
+  - child selectors
 
-  
-  ### Basic style properties 
 
-    - width and height
-    - margin and padding 
-    - border
-    - font styles (font-size, color, font-weight, font-family )
-    - background
+### Basic style properties 
 
-    - dispaly
-      - inline
-      - block
-      - inline-block
-      - flex
-      - grid
+  - width and height
+  - margin and padding 
+  - border
+  - font styles (font-size, color, font-weight, font-family )
+  - background (color, image, width, repeat/no repeat )
 
-    **position**
-      - static
-      - relative
-      - absolute
-      - sticky
-      - fixed
-      
-    - Z-index
-    - opacity
-    - overflow properties  
+  - dispaly
+    - inline
+    - block
+    - inline-block
+    - flex
+    - grid
 
-  ### Understanding BOX Model 
-    - BoxModel is abstract pattern used to determine width and height of html emlement by considering content actual dimensions and its padding, margin and border 
-
-  ### Layout properties
-
-  
-  ***Media quries***
-  
-  ***Display flex***
-  
-  ***Display Grid***
+  **position**
+    - static
+    - relative
+    - absolute
+    - sticky
+    - fixed
     
-    <!-- gridExample.html -->
-    ```HTML
-      
-    ```
-    <!-- Style.css -->
-    ```CSS
-      #container{
-        display: grid;
-        grid-template-columns: repeat(4, 120px)
-      }
-    ```
+  - Z-index
+  - opacity
+  - overflow properties  
 
-    
-  ### Advanced properties 
-    - Container 
-    - Content visibility 
-    - Aspect ratio
+### Understanding BOX Model 
+  - BoxModel is abstract pattern used to determine width and height of html emlement by considering content actual dimensions and its padding, margin and border 
 
-    
-  ### Transitions and Animations 
-    
-  ***Transitions***
-  <!-- Sample html -->
 
+### Layout properties
+
+**Display flex**
+
+**Display Grid**
+  
+  <!-- gridExample.html -->
   ```HTML
-    <p>Hello World, Welcome to the world of web programming</p>
+    
   ```
-
+  <!-- Style.css -->
   ```CSS
-  p{
-    font-size:14px;
-    transition-property: font-size;
-    transition-duration: 2s;
-    transition-delay: 1s;
-  }
-  p:hover{
-    font-size:32px
-  }
+    #container{
+      display: grid;
+      grid-template-columns: repeat(4, 120px)
+    }
   ```
 
-  ***Animations***
-
-  ### Writing better CSS 
-
-  ***Animations***
-
-
-  #### Writing better CSS 
-
-
-
-
-
-
-
-
-
+### Responsive web design
+  - Media quries 
+  - 
+  
+### Advanced properties 
+  - Container 
+  - Content visibility 
+  - Aspect ratio
 
   
+### Transitions and Animations 
+  
+***Transitions***
+<!-- Sample html -->
+
+```HTML
+  <p>Hello World, Welcome to the world of web programming</p>
+```
+
+```CSS
+p{
+  font-size:14px;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+p:hover{
+  font-size:32px
+}
+```
+
+***Animations***
+
+### Writing better CSS 
+
+***Animations***
+
+
+#### Writing better CSS 
+
+
+
+
+
+
+
+
+
+
+
