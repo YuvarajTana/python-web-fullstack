@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Tracking Dashboard</title>
+  <style>
+    body{
+      background-color: black;
+    }
+    #container{
+      display: flex;
+      color: #fff;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    #timeCards{
+      display: flex;
+      width: 900px;
+      height: 400px;
+      align-items: center;
+      gap: 16px;
+    }
+    #leftCards{
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      height: 100%; 
+      width: 200px;
+    }
+    #rightCards{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+    }
+    .card{
+      height: 200px; 
+      width: 200px; 
+      border: 1px solid goldenrod;
+    }
+    .card1{
+      /* height: 500px; */
+    }
+    .profile-top{
+      height: 70%;
+      background-color: rgb(62, 62, 214);
+      width: 180px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    .profile-pic{
+      width: 50px;
+      height: 50px;
+      border: 1px solid white;
+      border-radius: 25px;
+    }
+    .profile-bottom{
+      background-color: rgba(22,22,58);
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="timeCards">
+      <div id="leftCards">
+        <div class="profile-top">
+          <div class="profile-pic"></div>
+          <p>Report For</p>
+          <h2>Jeremy Robson</h2>
+        </div>
+        <div class="profile-bottom">
+          <p>Daily</p>
+          <p>Weekly</p>
+          <p>Monthly</p>
+        </div>
+
+      </div>
+      <div id="rightCards">
+        <div class="card card2">
+          
+        </div>
+        <div class="card card3">3</div>
+        <div class="card card4">4</div>
+        <div class="card card5">5</div>
+        <div class="card card6">6</div>
+        <div class="card card7">7</div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
