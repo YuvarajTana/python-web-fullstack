@@ -65,12 +65,87 @@
 
 ### Operatos
   - operatos (=, +, -, *, /, &&, ||, ==, ===)
+  ```JavaScript
+  // Arithmetic Operators
+    let sum = 30 + 40 // 70
+
+  // Logical Operators
+    let isAuthenticatedUser = true;
+    let isAdmin = false
+    isAuthenticatedUser && isAdmin  // false
+    isAuthenticatedUser || isAdmin  // true
+  ```
 
 
 ### Conitional statements
-  - ( (Simple if), (if - else), (nested if), (if - else if - else) )
-  - switch
-  
+  - Simple if
+
+    ```JavaScript
+      if(isAdmin){
+        // Next steps like - show admin page or allowing any actions
+      }
+    ```
+  - if - else
+    ```JavaScript
+      if(isAdmin){
+        // Next steps like - show admin page or allowing any actions
+      }else{
+        // Show error message or public page or common page
+      }
+    ```
+  - nested if
+    ```JavaScript
+      if(isAuthenticatedUser){
+        if(isAdmin){
+          // Next steps like - show admin page or allowing any actions
+        }
+      }else{
+        // Show log in page, to authenticate
+      }
+    ```
+
+  - if - else if - else
+    ```JavaScript
+      if(isAuthenticatedUser){
+        if(isAdmin){
+          // Next steps like - show admin page or allowing any actions
+        }else if(isAnotherUser){
+          // Do next with respective actions
+        }else{
+          // Common page 
+        }
+      }else{
+        // Show log in page, to authenticate
+      }
+    ```
+  - Switch
+
+  ```JavaScript
+    // Assume there is more than 3 / 4 conditions, in such scenario it would be prefered switch rather than nested if for better readability 
+
+    // Lets say there are 4 type of users levels each one has with different access levels
+
+    let userType = 'ProductManager';
+
+    switch(userType){
+      case 'Admin':
+        // Admin logic
+        break;
+      case 'ProductManager':
+        // ProductManager logic
+        break;
+      case 'Developer':
+        // Developer logic
+        break;
+      case 'Agent':
+        // Agent logic
+        break;
+      default:
+        // Any default logic
+
+    }
+
+  ```
 ### Loops
   - while
   - do while
