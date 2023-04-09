@@ -3,13 +3,13 @@
 ### Data Types
 
 **Primitive Types**
-  Number, 
-  String, 
-  Boolean,
-  null, 
-  undefined
-  Bigint
-  Symbol 
+  - Number, 
+  - String, 
+  - Boolean,
+  - null, 
+  - undefined
+  - Bigint
+  - Symbol 
 
   ```JavaScript
 
