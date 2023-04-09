@@ -37,7 +37,7 @@
 
   let employeeDetails = {
     name: "Rajesh",
-    age: 30,
+    age: 26,
     id: 340
   };
 
@@ -47,6 +47,21 @@
 
 ### Creating variables 
   - How to create variables using var, let and const 
+
+  ```JavaScript
+  /* 
+    When we want constants and don't want change the variable values in future, 
+    please create varaibles with const 
+  */
+  const applicationName = 'Some sort of start'; 
+
+  /*
+    Avoid creating variables using var and prefer it with let and its block scoped 
+  */
+
+  let age = 25;
+
+  ```
 
 ### Operatos
   - operatos (=, +, -, *, /, &&, ||, ==, ===)
