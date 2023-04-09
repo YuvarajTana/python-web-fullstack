@@ -67,18 +67,18 @@
   - operatos (=, +, -, *, /, &&, ||, ==, ===)
 
 
-- Conitional statements
+### Conitional statements
   - ( (Simple if), (if - else), (nested if), (if - else if - else) )
   - switch
   
-- Loops
+### Loops
   - while
   - do while
   - for 
   - for of
   - for in
 
-- Functions
+### Functions
 
   - What is function
   - How to create a function
@@ -101,7 +101,7 @@
   - Function expression and declaration
   - Arrow functions
 
-- Arrays
+### Arrays
   1. what is array 
   2. How to crate a array
   3. How add and remove elements from front and back of array (push, pop, shift and unshift)
@@ -112,7 +112,7 @@
   8. How to find elemt in Array ( find )
   9. How to check a varaibale type is array or not (isArray)
 
-- Objects 
+### Objects 
   - What is Object 
   - How to create objects in JavaScript
   - Important Object methods 
@@ -125,24 +125,20 @@
     6. Object.defineProperty()
     7. Object.create()
 
-- class
+### class
 
-- scope 
+### scope && this 
 
-- this 
+### closures 
 
-- closures 
+### prototype and prototype chain
 
-- prototype 
+### Asynchronous programming 
+  **callback**
+  **Promises**
+  **Async and Await**
 
-- call, apply, bind 
-
-- Asynchronous programming 
-  1. callback
-  2. Promises
-  3. Async and Await
-
-- Latest JavaScript concepts(ES6+)
+### Latest JavaScript concepts(ES6+)
   1. let, const
   2. arrow functions
   3. destructuring assignemt
@@ -155,12 +151,12 @@
   10. Object.assign, is, freeze, seal
   11. Generators
 
-- Working DOM
+### Working DOM
 
   - How to select a element
   - How to create a element
 
-- timers 
+### Important Web API's 
 
 - Important Web APIs
   
