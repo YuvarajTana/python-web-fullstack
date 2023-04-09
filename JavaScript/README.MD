@@ -86,6 +86,7 @@
       }
     ```
   - if - else
+
     ```JavaScript
       if(isAdmin){
         // Next steps like - show admin page or allowing any actions
@@ -93,7 +94,8 @@
         // Show error message or public page or common page
       }
     ```
-  - nested if
+  - Nested if
+
     ```JavaScript
       if(isAuthenticatedUser){
         if(isAdmin){
@@ -105,6 +107,7 @@
     ```
 
   - if - else if - else
+  
     ```JavaScript
       if(isAuthenticatedUser){
         if(isAdmin){
