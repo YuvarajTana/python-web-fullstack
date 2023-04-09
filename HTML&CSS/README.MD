@@ -13,7 +13,7 @@
   - Input Type -> text, password, radio, checkbox, number, date, button, submit, file
   - DropDown -> <select><otpion>1</option><otpion>2</option></select>
   - Button element 
-  - TextArea 
+  - TextArea
 
 ### Anchror element
   - <a hrer="https://youtube.com">Click here to go to Yotube</a>

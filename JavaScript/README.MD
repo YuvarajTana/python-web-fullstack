@@ -2,13 +2,54 @@
 
 ### Data Types
 
-- Data Types (Number, String, Boolean, null, undefined)
+**Primitive Types**
+  Number, 
+  String, 
+  Boolean,
+  null, 
+  undefined
+  Bigint
+  Symbol 
+
+  ```JavaScript
+
+    let age = 25; // typeof(age) will be `number` 
+    
+    let companyName = "Google India Pvt Ltd" // typeof(companyName) will be 'string'
+
+    let isLoggedIn = true; // typeof(isLoggedIn) will be `boolean`
+  
+    let findData = null; // typeof(findData) will be 'object' - This is beauce of design issue of JavaScript 
+
+    /*
+        Undefined - A top-level property whose value is not defined as MDN
+    */
+    let result; // typeof(result) will be 'undefined'
+  ```
+**Complex Types**
+  - Object 
+  
+  ```JavaScript
+  let fruits = ['Banana','Apple','Guava','Orange'];
+
+  typeof(fruits) // 'object'
+
+
+  let employeeDetails = {
+    name: "Rajesh",
+    age: 30,
+    id: 340
+  };
+
+  typeof(employeeDetails); // 'object'
+
+  ```
 
 ### Creating variables 
-- How to create variables using var, let and const 
+  - How to create variables using var, let and const 
 
 ### Operatos
-- operatos (=, +, -, *, /, &&, ||, ==, ===)
+  - operatos (=, +, -, *, /, &&, ||, ==, ===)
 
 
 - Conitional statements
@@ -26,13 +67,27 @@
 
   - What is function
   - How to create a function
+
+    ```JavaScript
+      function sayHello(){
+        
+      }
+    ```
   - How to invoke a simple function
+      ```JavaScript
+      function sayHello(){
+        
+      }
+
+      sayHello() // Invoking a function 
+
+    ```
   - Invoke functions with arguments 
   - Function expression and declaration
   - Arrow functions
 
 - Arrays
-  1. what is array
+  1. what is array 
   2. How to crate a array
   3. How add and remove elements from front and back of array (push, pop, shift and unshift)
   4. How to transfer array elements (map, reduce and filter)
@@ -83,9 +138,12 @@
   8. Array method includes, find
   9. global this
   10. Object.assign, is, freeze, seal
-  11. Generators 
+  11. Generators
 
 - Working DOM
+
+  - How to select a element
+  - How to create a element
 
 - timers 
 
