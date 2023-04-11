@@ -163,13 +163,11 @@
 
     ```JavaScript
       function sayHello(){
-        
       }
     ```
   - How to invoke a simple function
       ```JavaScript
       function sayHello(){
-        
       }
 
       sayHello() // Invoking a function 
@@ -180,10 +178,24 @@
   - Arrow functions
 
 ### Arrays
-  1. what is array 
+  1. What is array 
+    - Array is collection of similar type of data or it can have different types of data as well.
+
   2. How to crate a array
+    ```JavaScript
+      let techSkills = ['JavaScript','Python','SQL'];
+    ```
   3. How add and remove elements from front and back of array (push, pop, shift and unshift)
+      ```JavaScript
+        let techSkills = ['JavaScript','Python','SQL'];
+        techSkills.push('React'); // ['JavaScript','Python','SQL', 'React'];
+        techSkills.push('Django'); // ['JavaScript','Python','SQL', 'Django'];
+        techSkills.pop();
+      ```
   4. How to transfer array elements (map, reduce and filter)
+      ```JavaScript
+        let numbers = [1,2,3,4,5];
+       ```
   5. How to check element exist in array or not ( includes )
   6. How to merge two or more arrays (concat)
   7. How to iterate array elements (forEach)
@@ -192,6 +204,7 @@
 
 ### Objects 
   - What is Object 
+
   - How to create objects in JavaScript
   - Important Object methods 
     1. Object.keys()
@@ -204,7 +217,18 @@
     7. Object.create()
 
 ### class
+  ``` JavaScript
+    
+    class Person{
+      constructor(name,age){
+        this.name = name;
+        this.age = age;
+      }
+    }
+    
+    const p1 = new Person('Pavan',25);
 
+  ```
 ### scope && this 
 
 ### closures 
