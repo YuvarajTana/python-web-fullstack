@@ -1,18 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +13,88 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Header-section{
+  height: 80px;
+  box-shadow: 1px 1px 1px #e6e2e2;
 }
+
+nav{
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.Search-button{
+  border: 0;
+  height: 34px;
+  width: 350px;
+  /* border: 1px solid #dbd9d9; */
+  border-radius: 4px;
+  background-color: #e5e5e5;
+  padding: 4px 10px;
+}
+.Cart-section{
+  display: flex;
+  column-gap: 10px;
+  width: 300px;
+  justify-content: center;
+}
+.Sort-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+}
+.Bread-crum{
+  height: 150px;
+  padding: 0px 16px;
+}
+.ProductFilter{
+  display: flex;
+  border-top: 1px solid #d3d1d1;
+}
+.FilterList{
+  width: 200px;
+  border-right: 1px solid #d3d1d1;
+  height: 100vh;
+}
+.Category{
+  border-bottom: 1px solid #d3d1d1;
+  padding-left: 10px;
+}
+.Brand{
+  border-bottom: 1px solid #d3d1d1;
+  padding-left: 10px;
+}
+.Price{
+  border-bottom: 1px solid #d3d1d1;
+  padding-left: 10px;
+}
+.Color{
+  border-bottom: 1px solid #d3d1d1;
+  padding-left: 10px;
+}
+.ProductList{
+  width: 900px;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.ProductItem{
+  width: 180px;
+  height: 300px;
+}
+
+
