@@ -1,16 +1,18 @@
 function ProductItem(props){
   
-  const { name, brand, price, discountedPrice, discountedPercentage } = props;
+  const { imageUrl, name, brand, price, discountedPrice, discountedPercentage } = props;
 
   return <div className="ProductItem">
-    <div className='Product-image'></div>
+    <div className='Product-image'>
+      <img src={imageUrl} />
+    </div>
     <div className='Product-info'>
       <p>{brand}</p>
       <p>{name}</p>
-      <div>
-        <p>{price}</p>
-        <p>{discountedPrice}</p>
-        <p>{discountedPercentage}</p>
+      <div className='Product-price-section'>
+        <span>{price}</span>
+        <span>{discountedPrice}</span>
+        <span>{discountedPercentage}</span>
       </div>
     </div>
   </div>
