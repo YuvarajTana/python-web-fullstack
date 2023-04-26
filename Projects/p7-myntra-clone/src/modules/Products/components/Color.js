@@ -19,9 +19,9 @@ function Color(){
     <h5>COLOR</h5>
     <div>
     {
-      colorList.map(colorItem => {
+      colorList.map((colorItem, index) => {
         const { colorName, colorHexCode } = colorItem;
-        return <div className='ColorItemSec'>
+        return <div className='ColorItemSec' key={index}>
           <input type="checkbox" name={colorName}/>
           <p className='Color-item' style={{backgroundColor: `${colorHexCode}`}}></p>
           <p>{colorName}</p>

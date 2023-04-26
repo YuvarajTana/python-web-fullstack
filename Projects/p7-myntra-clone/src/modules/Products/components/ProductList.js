@@ -3,6 +3,7 @@ import ProductItem from "./ProductItem";
 
 const productData = [
   {
+    id:1,
     name:"Regular T Shirt", 
     brand:"Roadstar", 
     price:350, 
@@ -11,6 +12,7 @@ const productData = [
     imageUrl: "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/e/h/h/l-hlts002640-highlander-original-imagngnbk7fyyedg.jpeg?q=70"
   },
   {
+    id:2,
     name:"Regular T Shirt", 
     brand:"Roadstar", 
     price:350, 
@@ -65,8 +67,8 @@ function ProductList(props){
 
   return <div className="ProductList">
     {
-      productData.map(item => {
-        return <ProductItem {...item}></ProductItem>
+      productData.map((item, index) => {
+        return <ProductItem key={index} {...item}></ProductItem>
       })
     }
   </div> 
