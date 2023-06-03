@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample music play UI</title>
+  <style>
+    /* CSS Resets */
+    *, div, p{
+      margin: 0;
+      padding: 0;
+    }
+
+    #container{
+      background-color: black;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+    } 
+    .music-container{
+      height: 250px;
+      width: 350px;
+      background-color: rgb(58, 71, 83);
+      position: absolute; 
+      top: 35%;
+      left: 40%;
+      padding: 16px;
+      color: white;
+      text-align: center;
+    }
+
+    p{
+      margin: 10px;
+    }
+
+    #playButton{
+      border: 0;
+      background-color: aquamarine;
+      width: 60px;
+      height: 60px;
+      color: rgb(180, 58, 162);
+      border-radius: 30px;
+      position: absolute;
+      bottom:  -30px;
+      left: 170px;
+    }
+    #playBox{
+      /* margin: 30px; */
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      margin: auto;
+      position: absolute;
+      top: 32%;
+      left: 32%;
+    }
+    p:nth-child(1){
+      color: aquamarine;
+    }
+    p:nth-child(2){
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    p:nth-child(3){
+     border: 1px solid grey;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <div class="music-container">
+      <p>Advice #177</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatibus nihil repellendus itaque, voluptate recusandae quaerat corporis aspernatur similique! Omnis voluptas tempora cum quae dolorem ea et quasi accusamus at.</p>
+      <p></p>
+      <div id="playButton">
+        <div id="playBox">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Another flex example</title>
+  <style>
+    
+    html,body,div,p{
+      margin: 0;
+      padding: 0;
+    }
+
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(247, 208, 209);
+    }
+    .container_1{
+      /* border: 1px solid green; */
+      width: 960px;
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      /* justify-content: center; */
+      align-items: center;
+      margin-top: 20px;
+    }
+    .section1{
+      display: flex;
+    }
+    input{
+      width: 500px;
+      height: 32px;
+      padding-left: 40px;
+      border-radius: 4px;
+    }
+    .section3{
+      display: flex;
+      gap: 10px;
+    }
+    .recent-searched-address{
+      border: 1px solid #beb9b9;
+      width: 100px;
+      height: 100px;
+    }
+    .section4{
+      display: flex;
+      flex-direction: column;
+    }
+    .recommended{
+      display: flex;
+    }
+    .articles{
+      display: flex;
+      gap: 10px;
+    }
+    .article{
+      width: 300px;
+      height: 300px;
+      border: 1px solid grey;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container_1">
+      <div class="section section1">
+        <img src="https://cdn-brilio-net.akamaized.net/webp/news/2015/11/12/26955/browser-mozilla-firefox-kini-bisa-anda-gunakan-untuk-perangkat-ios-151112n.jpg" alt="" width="100">
+        <h2>Fire Fox</h2>
+      </div>
+      <div class="section section2">
+        <input type="text" placeholder="Serach with Google or Enter Address">
+      </div>
+      <div class="section section3">
+        <div class="recent-searched-address">Amazon</div>
+        <div class="recent-searched-address">Trivago</div>
+        <div class="recent-searched-address">Gmail</div>
+        <div class="recent-searched-address">Youtube</div>
+        <div class="recent-searched-address">Eenadu</div>
+        <div class="recent-searched-address">Likdhin</div>
+        <div class="recent-searched-address">Abhibus</div>
+        <div class="recent-searched-address">Newline</div>
+      </div>
+      <div class="section section4">
+        <div class="recommended">
+          <h4>Recommended by Pocket</h4>
+          <a href="">Learn More</a>
+        </div>
+        <div class="articles">
+          <div class="article">Article 1</div>
+          <div class="article">Article 2</div>
+          <div class="article">Article 3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
